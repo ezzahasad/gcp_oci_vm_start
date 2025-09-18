@@ -66,15 +66,21 @@ Loom/Zoom: (https://www.loom.com/share/ff4eb025c2734df8bc464a1486547e09?sid=8454
 ## Reflections
 ### Similarities
 - Both had the Ubuntu LTS that I used for my assignment (and other Linux distros) for lightweight testing.
+
 -Both asked you to identify a region and zone for where the VM runs. 
+
 -The setup process was similar because both platforms guide you through multiple sections step by step to create the VM.
+
 -Indicated status of the computer. (Running, stopped, terminated)
 
 
 ### Differences
--Azure has a “resources group” whereas GCP did not organize the VMs and other related assets. 
+-Azure has a “resources group” whereas GCP did not organize the VMs and other related assets.
+
 -Azure allows you to pick the Virtual Network and subnet, and GCP gives you a default VPC network. 
+
 -Azure presents more configuration steps and are less hidden than GCP.
+
 -Azure assigns a public IP that can persist, while GCP typically uses a temporary IP that’s released once the VM is deleted.
 
 
