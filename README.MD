@@ -65,7 +65,7 @@ Loom/Zoom: (https://www.loom.com/share/ff4eb025c2734df8bc464a1486547e09?sid=8454
 ---
 ## Reflections
 ### Similarities
-- Both had the Ubuntu LTS that I used for my assignment (and other Linux distros) for lightweight testing.
+-Both had the Ubuntu LTS that I used for my assignment (and other Linux distros) for lightweight testing.
 
 -Both asked you to identify a region and zone for where the VM runs. 
 
