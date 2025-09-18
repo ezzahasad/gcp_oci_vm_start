@@ -1,7 +1,7 @@
 # VM Lifecycle on GCP and Azure — Tutorial
 
 ## Video
-Loom/Zoom: <paste link>
+Loom/Zoom: (https://www.loom.com/share/ff4eb025c2734df8bc464a1486547e09?sid=8454064e-a799-429f-ba18-354bb56a287e)
 
 ## Prereqs
 - Cloud access to GCP and Azure
@@ -12,8 +12,8 @@ Loom/Zoom: <paste link>
 ## Google Cloud (GCP)
 ### Create
 1. Console → Compute Engine → Create instance
-2. Region/zone: us-east4 (Northern Virginia)
-3. Machine type: e2-micro
+2. Region/zone: us-east4 (Northern Virginia) zone: any
+3. Machine type: e2-micro (2 vCPU, 1 core, 1 GB memory)
 4. Image: Ubuntu 25.04 Minimal
 5. Boot disk: default minimal
 6. Network: default VPC; ephemeral public IP
@@ -40,9 +40,9 @@ Loom/Zoom: <paste link>
 ## Azure
 ### Create
 1. Compartment: virtual machine -> create 
-2. region/availability zone:  (US) East US 2
-3. Machine Size:  <smallest/free-eligible>
-4. Image: Ubuntu (or Oracle Linux)
+2. Region/Availability Zone:  (US) East US 2
+3. Machine Size: Standard_B1s-1 vcpu, 1 Gib memory
+4. Image: Ubuntu Server 24.04 LTS -x64 Gen2
 5. Authentication type: password
 6. Boot volume: default minimal
 
